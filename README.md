@@ -30,7 +30,7 @@ Each synthetic anomaly type is grounded in a documented gait pathology:
 
 ### Protocol A — Pooled random split (70 % train / 30 % test)
 
-old = """| Model | AUC-ROC | AUC-PR | F1 | MCC | Precision | Recall |
+| Model | AUC-ROC | AUC-PR | F1 | MCC | Precision | Recall |
 |---|---|---|---|---|---|---|
 | Statistical Threshold | 0.718 | 0.748 | 0.709 | 0.613 | 0.684 | 0.727 |
 | **Isolation Forest** | **0.998** | **0.989** | **0.966** | **0.950** | **1.000** | **0.927** |
@@ -46,7 +46,7 @@ old = """| Model | AUC-ROC | AUC-PR | F1 | MCC | Precision | Recall |
 
 *Run `python src/main.py` to populate Protocol B numbers from your machine.*"""
 
-new = """| Model | AUC-ROC | AUC-PR | F1 | MCC | Precision | Recall |
+| Model | AUC-ROC | AUC-PR | F1 | MCC | Precision | Recall |
 |---|---|---|---|---|---|---|
 | Statistical Threshold | 0.718 | 0.748 | 0.000 | 0.000 | 0.000 | 0.000 |
 | Isolation Forest | 0.710 | 0.748 | 0.211 | −0.175 | 0.124 | 0.709 |
