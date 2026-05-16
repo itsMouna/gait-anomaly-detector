@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/models",
+        "./src/deep_learning",
+        "./src/realtime"
+    ]
+}
